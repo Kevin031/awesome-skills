@@ -1,0 +1,18 @@
+{
+  "name": "awesome-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal agent skills collection with symlink support for Cursor, Claude Code, and Codex",
+  "type": "module",
+  "scripts": {
+    "skills:link": "node scripts/link.mjs",
+    "skills:link:cursor": "node scripts/link.mjs cursor",
+    "skills:link:claude": "node scripts/link.mjs claude",
+    "skills:link:codex": "node scripts/link.mjs codex",
+    "skills:unlink": "node scripts/link.mjs --unlink",
+    "skills:status": "node scripts/link.mjs --status"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
